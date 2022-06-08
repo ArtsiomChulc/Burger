@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:wght@700;800&display=swap');
+
+.block-main {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+.main__container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 170px 0px 169px 0px;
+    height: 100%;
+}
+.like-burger {
+    max-width: 580px;
+    display: inline-block;
+}
+.like-burger__title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+    margin: 0px 0px 10px 0px; 
+}
+.like-burger__subtitle {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #FAF9F9;
+    margin: 0px 0px 39px 0px;
+}
+.like-burger__text {
+    max-width: 524px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 140%;
+    color: #DEDEDE;
+    margin: 0px 0px 42px 0px;
+}
+.like-burger__button {
+    background: #FBB731;
+    border-radius: 5px;
+    width: 170px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E2F40;
+    display: inline-block;
+    padding: 20px 0;
+    text-decoration: none;
+}
+.like-burger__button:hover {
+    background: #f5ca72;
+}
+.bg {
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    width: 432px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 169px;
+}
+.bg__image {
+    max-width: 805px;
+    max-height: 835px;
+    margin: 0px 0px 0px -201px; 
+}
